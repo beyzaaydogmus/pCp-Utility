@@ -1,0 +1,51 @@
+Consumer num = 5 Buffer size = 1
+copied bytes : 27570176 MB
+spent time : 96 miliseconds
+
+Consumer num = 10 Buffer size = 1
+copied bytes : 30715904 MB
+spent time : 123 miliseconds
+
+
+Consumer num = 1 Buffer size = 5
+copied bytes : 27570176 MB
+spent time : 191 miliseconds
+
+
+Consumer num = 1 Buffer size = 10
+copied bytes : 27570176 MB
+spent time : 86 miliseconds
+
+
+Consumer num = 1 Buffer size = 100
+copied bytes : 27570176 MB
+spent time : 135 miliseconds
+
+
+Consumer num = 100 Buffer size = 1
+copied bytes : 30715904 MB
+spent time : 191 miliseconds
+
+Consumer num = 100 Buffer size = 40
+copied bytes : 27570176 MB
+spent time : 181 miliseconds
+
+
+Consumer num = 90 Buffer size = 40
+copied bytes : 30715904 MB
+spent time : 182 miliseconds
+
+
+The time after a place is not dependent on the size of the buffer. While the number of customers increase the spended time is shortened. till the Consumer num pass the size of copied
+No more files can be opened when the limit per transaction in the number of open file descriptors is exceeded
+
+
+
+
+
+
+
+
+
+
+
